@@ -10,3 +10,11 @@ class MyscrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+class StarTechItem(scrapy.Item):
+    product_name = scrapy.Field()
+    price = scrapy.Field()
+    product_brand = scrapy.Field()
+    product_key_features = scrapy.Field()
+    product_description = scrapy.Field()
+    
